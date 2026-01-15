@@ -1,0 +1,29 @@
+{
+    "name": "boilerplate-observability-node",
+    "version": "1.0.0",
+    "description": "Full-stack observability boilerplate with Next.js, NestJS, OpenTelemetry, and Grafana Tempo",
+    "private": true,
+    "scripts": {
+        "dev:web": "cd apps/web && npm run dev",
+        "dev:api": "cd apps/api && npm run start:dev",
+        "dev:worker": "cd apps/worker && npm run start:dev",
+        "build:web": "cd apps/web && npm run build",
+        "build:api": "cd apps/api && npm run build",
+        "build:worker": "cd apps/worker && npm run build",
+        "infra:up": "cd infra/docker && docker compose up -d",
+        "infra:down": "cd infra/docker && docker compose down",
+        "infra:logs": "cd infra/docker && docker compose logs -f"
+    },
+    "keywords": [
+        "observability",
+        "opentelemetry",
+        "grafana",
+        "tempo",
+        "nextjs",
+        "nestjs",
+        "tracing",
+        "distributed-tracing"
+    ],
+    "author": "",
+    "license": "MIT"
+}
