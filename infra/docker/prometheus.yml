@@ -16,6 +16,7 @@ scrape_configs:
 
   # Frontend Next.js metrics
   - job_name: 'nextjs-frontend'
+    scrape_interval: 30s  # Reduced frequency to minimize console noise
     static_configs:
       - targets: ['host.docker.internal:3002']
     metrics_path: '/api/metrics'

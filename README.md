@@ -16,7 +16,19 @@ Full-stack observability template with **Next.js**, **NestJS**, **OpenTelemetry*
 - ✅ **Grafana Dashboard** - Pre-configured "Observability Overview"
 - ✅ **Modern UI** - Premium design with glassmorphism effects
 
-## 📁 Project Structure
+## � Screenshots
+
+### Distributed Tracing in Grafana Tempo
+![Distributed Tracing](./images/screenshot1.png)
+
+### Frontend Dashboard
+![Frontend Dashboard](./images/screenshot2.png)
+
+### Backend Dashboard
+![Backend Dashboard](./images/screenshot3.png)
+
+
+## �📁 Project Structure
 
 ```
 boilerplate-observability-node/
@@ -184,4 +196,3 @@ MIT
 
 ---
 
-**Made with ❤️ for observability enthusiasts**
